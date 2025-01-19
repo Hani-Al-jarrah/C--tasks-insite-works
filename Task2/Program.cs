@@ -92,28 +92,93 @@ namespace Task2
 
             //////////////////////////////////////////////////////Q9///////////////////////////////////////////////////////
 
-            Console.WriteLine("\nEnter two numbers:");
-            int num1 = Convert.ToInt32(Console.ReadLine());
-            int num2 = Convert.ToInt32(Console.ReadLine());
-            if (num1 == num2) { Console.WriteLine("Equla"); }
-            else if (num1 > num2) { Console.WriteLine("Grater"); }
-            else { Console.WriteLine("Smaller"); }
+            //Console.WriteLine("\nEnter two numbers:");
+            //int num1 = Convert.ToInt32(Console.ReadLine());
+            //int num2 = Convert.ToInt32(Console.ReadLine());
+            //if (num1 == num2) { Console.WriteLine("Equla"); }
+            //else if (num1 > num2) { Console.WriteLine("Grater"); }
+            //else { Console.WriteLine("Smaller"); }
 
             //////////////////////////////////////////////////////Q10///////////////////////////////////////////////////////
 
 
+            //Console.WriteLine("\nEnter a number:");
+            //int num = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine($"Sum of digits: {SumOfDigits(num)}");
+
+            //////////////////////////////////////////////////////Q11///////////////////////////////////////////////////////
 
 
+            //Console.WriteLine("\nEnter a number:");
+            //num = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine($"Reversed Number: {ReverseNumber(num)}");
+
+            //////////////////////////////////////////////////////Q12///////////////////////////////////////////////////////
 
 
+            //Console.WriteLine("\nEnter two numbers (number and divisor):");
+            //int dividend = Convert.ToInt32(Console.ReadLine());
+            //int divisor = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine(CheckDivisibility(dividend, divisor));
+
+            //////////////////////////////////////////////////////Q13///////////////////////////////////////////////////////
 
 
-
-
-
-
-
-
+            //Console.WriteLine("\nEnter three numbers:");
+            //int a = Convert.ToInt32(Console.ReadLine());
+            //int b = Convert.ToInt32(Console.ReadLine());
+            //int c = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine($"The middle value is: {FindMiddleValue(a, b, c)}");
         }
+
+
+
+        //static int SumOfDigits(int num)
+        //{
+        //    // Convert the number to a string and split it into individual digits
+        //    string numStr = num.ToString(); 
+        //    int sum = 0;
+
+        //    // Loop through each character, convert it back to an integer, and add to sum
+        //    for (int i = 0; i < numStr.Length; i++)
+        //    {
+        //        sum += int.Parse(numStr[i].ToString()); // convert each char into string then into integer
+        //    }
+
+        //    return sum;
+        //}
+
+        //static int ReverseNumber(int num)
+        //{
+        //    string rev = "";
+        //    string numStr = num.ToString();
+
+        //    for (int i = numStr.Length - 1; i >= 0; i--)
+        //    {
+        //        rev += numStr[i];
+        //    }
+
+        //    return  Convert.ToInt32(rev);
+
+        //}
+
+        //static string CheckDivisibility(int dividend, int divisor)
+        //{
+        //    if (dividend % divisor == 0)
+        //    {
+        //        return "divisible";
+        //    }
+        //    else {
+        //        return "Not Divisible";
+        //    }
+        //}
+
+        //static int FindMiddleValue(int a, int b, int c)
+        //{
+        //    if ((a > b && a < c) || (a > c && a < b)) return a;
+        //    if ((b > a && b < c) || (b > c && b < a)) return b;
+        //    return c;
+        //}
+
     }
 }
