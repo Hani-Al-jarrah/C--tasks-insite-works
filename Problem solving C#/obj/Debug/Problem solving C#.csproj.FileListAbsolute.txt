@@ -1,0 +1,7 @@
+C:\Users\Orange\Desktop\C--tasks-insite-works\Problem solving C#\bin\Debug\Problem solving C#.exe.config
+C:\Users\Orange\Desktop\C--tasks-insite-works\Problem solving C#\bin\Debug\Problem solving C#.exe
+C:\Users\Orange\Desktop\C--tasks-insite-works\Problem solving C#\bin\Debug\Problem solving C#.pdb
+C:\Users\Orange\Desktop\C--tasks-insite-works\Problem solving C#\obj\Debug\Problem solving C#.csproj.AssemblyReference.cache
+C:\Users\Orange\Desktop\C--tasks-insite-works\Problem solving C#\obj\Debug\Problem solving C#.csproj.CoreCompileInputs.cache
+C:\Users\Orange\Desktop\C--tasks-insite-works\Problem solving C#\obj\Debug\Problem solving C#.exe
+C:\Users\Orange\Desktop\C--tasks-insite-works\Problem solving C#\obj\Debug\Problem solving C#.pdb

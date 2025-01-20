@@ -1,0 +1,7 @@
+C:\Users\Orange\Desktop\C--tasks-insite-works\Insite-1_20_2025(OOP)\bin\Debug\Insite-1_20_2025(OOP).exe.config
+C:\Users\Orange\Desktop\C--tasks-insite-works\Insite-1_20_2025(OOP)\bin\Debug\Insite-1_20_2025(OOP).exe
+C:\Users\Orange\Desktop\C--tasks-insite-works\Insite-1_20_2025(OOP)\bin\Debug\Insite-1_20_2025(OOP).pdb
+C:\Users\Orange\Desktop\C--tasks-insite-works\Insite-1_20_2025(OOP)\obj\Debug\Insite-1_20_2025(OOP).csproj.AssemblyReference.cache
+C:\Users\Orange\Desktop\C--tasks-insite-works\Insite-1_20_2025(OOP)\obj\Debug\Insite-1_20_2025(OOP).csproj.CoreCompileInputs.cache
+C:\Users\Orange\Desktop\C--tasks-insite-works\Insite-1_20_2025(OOP)\obj\Debug\Insite-1_20_2025(OOP).exe
+C:\Users\Orange\Desktop\C--tasks-insite-works\Insite-1_20_2025(OOP)\obj\Debug\Insite-1_20_2025(OOP).pdb
