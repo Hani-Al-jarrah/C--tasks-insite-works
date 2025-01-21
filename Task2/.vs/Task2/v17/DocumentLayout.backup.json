@@ -3,13 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\C--tasks-insite-works\\Task2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F41072F3-2756-4259-9083-0B94ED12D0B5}|..\\Task4\\Task4.csproj|c:\\users\\orange\\desktop\\c--tasks-insite-works\\task4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DAE2EEF-BF61-4439-9A8C-C90F93CBAB93}|..\\21_1\\21_1.csproj|c:\\users\\orange\\desktop\\c--tasks-insite-works\\21_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BF2B5777-21E3-4E3A-8868-39A2A81F1C65}|..\\Task3\\Task3.csproj|c:\\users\\orange\\desktop\\c--tasks-insite-works\\task3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D2150D0-B0A1-4E19-9B0C-DE184C316B4E}|..\\Insite-1_20_2025(OOP)\\Insite-1_20_2025(OOP).csproj|c:\\users\\orange\\desktop\\c--tasks-insite-works\\insite-1_20_2025(oop)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95AF8BD6-1A32-4802-B230-ED91D67A0FDB}|Task2.csproj|c:\\users\\orange\\desktop\\c--tasks-insite-works\\task2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{95AF8BD6-1A32-4802-B230-ED91D67A0FDB}|Task2.csproj|C:\\Users\\Orange\\Desktop\\C--tasks-insite-works\\Task2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95AF8BD6-1A32-4802-B230-ED91D67A0FDB}|Task2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -33,18 +39,42 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\C--tasks-insite-works\\Task3\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Task3\\Program.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\C--tasks-insite-works\\Task3\\Program.cs*",
-              "RelativeToolTip": "..\\Task3\\Program.cs*",
-              "ViewState": "AgIAAMoAAAAAAAAAAAAIwM8AAAAMAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\C--tasks-insite-works\\Task4\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Task4\\Program.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\C--tasks-insite-works\\Task4\\Program.cs",
+              "RelativeToolTip": "..\\Task4\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T12:11:39.591Z",
+              "WhenOpened": "2025-01-21T13:22:51.374Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\C--tasks-insite-works\\21_1\\Program.cs",
+              "RelativeDocumentMoniker": "..\\21_1\\Program.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\C--tasks-insite-works\\21_1\\Program.cs",
+              "RelativeToolTip": "..\\21_1\\Program.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAwwGIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T08:03:09.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\C--tasks-insite-works\\Task3\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Task3\\Program.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\C--tasks-insite-works\\Task3\\Program.cs",
+              "RelativeToolTip": "..\\Task3\\Program.cs",
+              "ViewState": "AgIAANsAAAAAAAAAAAAAAPsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T12:11:39.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\C--tasks-insite-works\\Insite-1_20_2025(OOP)\\Program.cs",
               "RelativeDocumentMoniker": "..\\Insite-1_20_2025(OOP)\\Program.cs",
@@ -52,12 +82,11 @@
               "RelativeToolTip": "..\\Insite-1_20_2025(OOP)\\Program.cs",
               "ViewState": "AgIAAE4AAAAAAAAAAAAiwFQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T07:26:10.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-20T07:26:10.248Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\C--tasks-insite-works\\Problem solving C#\\Program.cs",
               "RelativeDocumentMoniker": "..\\Problem solving C#\\Program.cs",
@@ -65,12 +94,11 @@
               "RelativeToolTip": "..\\Problem solving C#\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T06:01:56.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-20T06:01:56.736Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\C--tasks-insite-works\\Task2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -78,8 +106,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAIYAAAAAAAAAAAAAwJsAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T14:06:30.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-19T14:06:30.042Z"
             }
           ]
         }

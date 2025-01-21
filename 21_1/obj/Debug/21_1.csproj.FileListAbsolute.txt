@@ -1,0 +1,7 @@
+C:\Users\Orange\Desktop\C--tasks-insite-works\21_1\bin\Debug\21_1.exe.config
+C:\Users\Orange\Desktop\C--tasks-insite-works\21_1\bin\Debug\21_1.exe
+C:\Users\Orange\Desktop\C--tasks-insite-works\21_1\bin\Debug\21_1.pdb
+C:\Users\Orange\Desktop\C--tasks-insite-works\21_1\obj\Debug\21_1.csproj.AssemblyReference.cache
+C:\Users\Orange\Desktop\C--tasks-insite-works\21_1\obj\Debug\21_1.csproj.CoreCompileInputs.cache
+C:\Users\Orange\Desktop\C--tasks-insite-works\21_1\obj\Debug\21_1.exe
+C:\Users\Orange\Desktop\C--tasks-insite-works\21_1\obj\Debug\21_1.pdb
