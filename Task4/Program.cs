@@ -14,7 +14,7 @@ namespace Task4
             private string name;
             private int age;
             private int studentID;
-            public string Email { get; set; }
+            public string Email { get; set; } // auto proparity
             public const double MinAge = 18;
             public const double MaxAge = 40;
 
@@ -24,10 +24,17 @@ namespace Task4
                 Console.WriteLine($"\nStudent Name: {name}, Age: {age}, Student ID: {studentID}, Email: {Email}");
             }
 
-            public Student(string name, int age, int studentID)
+            public Student()
+            { // default Constructor with initial values
+                name = "";
+                age = 18;
+                studentID = 0;
+            }
+
+            public Student(string name, int age, int studentID) // Constructor with Paramiters
             {
-                
-                if (age < MinAge || age > MaxAge)
+
+                if (age < MinAge || age > MaxAge) // check the age 
                 {
                     Console.WriteLine($"\nInvalid age: {age}. Age must be between {MinAge} and {MaxAge}.");
                 }
@@ -41,7 +48,7 @@ namespace Task4
 
             ~Student() //Destructor
             {
-                Console.WriteLine($"\nStudent object with ID {studentID} is being destroyed.");
+                Console.WriteLine($"\nStudent object with ID {studentID} is being destroyed."); // will call it every time i create object 
             }
 
             ///----------------------------------set & get Name-------------------------------------
@@ -80,15 +87,20 @@ namespace Task4
             static void Main(string[] args)
             {
                 ///-----------------------------Creating Objects------------------------------------------
-                Student student = new Student("Ahmad",22,1001);
+                Student student = new Student("Ahmad", 2, 1001);
                 student.Email = "Ahmad@gmail.com"; // add value to the email 
                 student.GetDetails(); // call the method for print
 
-                Student student2 = new Student("hani", 22, 2002);
+                Student student2 = new Student("hani", 22, 1002);
                 student2.Email = "hani@gmail.com"; // add value to the email
                 student2.GetDetails(); // call the method for print
 
             }
+
+
+
+
+
         }
     }
 }

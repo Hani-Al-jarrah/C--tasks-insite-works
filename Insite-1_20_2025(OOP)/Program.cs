@@ -72,38 +72,95 @@ namespace Insite_1_20_2025_OOP_
     //    }
     //}
 
-    class Car
+    //class Car
+    //{
+    //    string model;
+    //    string color;
+    //    int year;
+
+    //    const int wheels = 4;
+
+    //    public static void DisplayInfo(Car c)
+    //    {
+    //        Console.WriteLine($"car: {c.model} {c.color}, made in : {c.year}, number of the wheels: {wheels}");
+    //    }
+
+    //    static void Main(string[] args)
+    //    {
+    //        Car Ford = new Car();
+    //        Ford.model = "Mustang";
+    //        Ford.color = "red";
+    //        Ford.year = 1969;
+
+    //        Car Opel = new Car();
+    //        Opel.model = "Astra";
+    //        Opel.color = "white";
+    //        Opel.year = 2005;
+
+
+    //        Console.WriteLine(Ford.model);
+    //        Console.WriteLine(Car.wheels);
+
+    //        Car.DisplayInfo(Ford);
+    //    }
+    //}
+
+
+    using System;
+
+    // Base class
+    public class Animal
     {
-        string model;
-        string color;
-        int year;
-
-        const int wheels = 4;
-
-        public static void DisplayInfo(Car c)
+        protected int owner { get; set; }  //protected Proparity 
+        public void Eat()
         {
-            Console.WriteLine($"car: {c.model} {c.color}, made in : {c.year}, number of the wheels: {wheels}");
+            owner = 0;
+            Console.WriteLine("This animal is eating.");
         }
 
-        static void Main(string[] args)
+    }
+
+    // Derived class
+    public class Dog : Animal
+    {
+        //owner = "hani";
+        //owner=2*3;
+
+        public void Bark()
         {
-            Car Ford = new Car();
-            Ford.model = "Mustang";
-            Ford.color = "red";
-            Ford.year = 1969;
-
-            Car Opel = new Car();
-            Opel.model = "Astra";
-            Opel.color = "white";
-            Opel.year = 2005;
-
-
-            Console.WriteLine(Ford.model);
-            Console.WriteLine(Car.wheels);
-
-            Car.DisplayInfo(Ford);
+            owner = 2*3 ;
+            Console.WriteLine(owner);
+            Console.WriteLine("of this dog.");
         }
     }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Dog dog1 = new Dog();
+            //dog1.owner="hani";
+            dog1.Bark();
+
+            dog1.Eat();
+
+
+
+            //// Create an object of the derived class
+            //Dog myDog = new Dog();
+
+            //// Access the base class method
+            //myDog.Eat();
+            
+            
+            //// Access the derived class method
+            //myDog.Bark();
+        }
+    }
+
+
+
+
 }
 
 
