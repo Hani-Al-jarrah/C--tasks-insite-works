@@ -106,61 +106,277 @@ namespace Insite_1_20_2025_OOP_
     //}
 
 
+    //using System;
+
+    //// Base class
+    //public class Animal
+    //{
+    //    protected int owner { get; set; }  //protected Proparity 
+    //    public void Eat()
+    //    {
+    //        owner = 0;
+    //        Console.WriteLine("This animal is eating.");
+    //    }
+
+    //}
+
+    //// Derived class
+    //public class Dog : Animal
+    //{
+    //    //owner = "hani";
+    //    //owner=2*3;
+
+    //    public void Bark()
+    //    {
+    //        owner = 2*3 ;
+    //        Console.WriteLine(owner);
+    //        Console.WriteLine("of this dog.");
+    //    }
+    //}
+
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        Dog dog1 = new Dog();
+    //        //dog1.owner="hani";
+    //        dog1.Bark();
+
+    //        dog1.Eat();
+
+
+
+    //        //// Create an object of the derived class
+    //        //Dog myDog = new Dog();
+
+    //        //// Access the base class method
+    //        //myDog.Eat();
+
+
+    //        //// Access the derived class method
+    //        //myDog.Bark();
+    //    }
+    //}
+
+
+
+    //using System;
+
+    //// Abstract class defining the MediaPlayer structure
+    // class MediaPlayer
+    //{
+    //    public  virtual void Play()
+    //    {
+    //        Console.WriteLine("Playing audio1...");
+    //    }
+
+    //    public virtual void Pause()
+    //    {
+    //        Console.WriteLine("Playing audio1...");
+
+    //    }
+    //    public virtual void Stop()
+    //    {
+
+    //        Console.WriteLine("Playing audio1...");
+    //    }
+    //}
+
+    //// Concrete class for AudioPlayer
+    //class AudioPlayer : MediaPlayer
+    //{
+    //    public override void Play()
+    //    {
+    //        Console.WriteLine("Playing audio...");
+    //    }
+
+    //    public override void Pause()
+    //    {
+    //        Console.WriteLine("Pausing audio...");
+    //    }
+
+    //    public override void Stop()
+    //    {
+    //        Console.WriteLine("Stopping audio...");
+    //    }
+    //}
+
+    //// Concrete class for VideoPlayer
+    //class VideoPlayer : MediaPlayer
+    //{
+    //    public override void Play()
+    //    {
+    //        Console.WriteLine("Playing video...");
+    //    }
+
+    //    public override void Pause()
+    //    {
+    //        Console.WriteLine("Pausing video...");
+    //    }
+
+    //    public override void Stop()
+    //    {
+    //        Console.WriteLine("Stopping video...");
+    //    }
+    //}
+
+    //class Program
+    //{
+    //    static void Main()
+    //    {
+    //        MediaPlayer player = new AudioPlayer();  // override
+    //        player.Play();
+    //        player.Pause();
+    //        player.Stop();
+
+    //        MediaPlayer player1 = new VideoPlayer();
+    //        player.Play();
+    //        player.Pause();
+    //        player.Stop();
+    //    }
+    //}
+
+
     using System;
 
-    // Base class
-    public class Animal
+    // Abstract class defining the MediaPlayer structure
+    abstract class MediaPlayer
     {
-        protected int owner { get; set; }  //protected Proparity 
-        public void Eat()
-        {
-            owner = 0;
-            Console.WriteLine("This animal is eating.");
-        }
-
+        public abstract void Play();
+        public abstract void Pause();
+        public abstract void Stop();
     }
 
-    // Derived class
-    public class Dog : Animal
+    // Concrete class for AudioPlayer
+    class AudioPlayer : MediaPlayer
     {
-        //owner = "hani";
-        //owner=2*3;
-
-        public void Bark()
+        public override void Play()
         {
-            owner = 2*3 ;
-            Console.WriteLine(owner);
-            Console.WriteLine("of this dog.");
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("Playing audio...");
+            }
+        }
+
+        public override void Pause()
+        {
+            Console.WriteLine("Pausing audio...");
+        }
+
+        public override void Stop()
+        {
+            Console.WriteLine("Stopping audio...");
+        }
+    }
+
+    // Concrete class for VideoPlayer
+    class VideoPlayer : MediaPlayer
+    {
+        public override void Play()
+        {
+            Console.WriteLine("Playing video...");
+
+        }
+
+        public override void Pause()
+        {
+            Console.WriteLine("Pausing video...");
+        }
+
+        public override void Stop()
+        {
+            Console.WriteLine("Stopping video...");
         }
     }
 
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Dog dog1 = new Dog();
-            //dog1.owner="hani";
-            dog1.Bark();
+            MediaPlayer player = new AudioPlayer();
+            player.Play();
+            player.Pause();
+            player.Stop();
 
-            dog1.Eat();
+            //MediaPlayer m1 = new VideoPlayer();
+            //m1.Pause();
+            //m1.Play();
+            //m1.Stop();
+
+
+            //VideoPlayer videoPlayer = new VideoPlayer();
+            //videoPlayer.Play();
+            //videoPlayer.Pause();
+            //videoPlayer.Stop();
 
 
 
-            //// Create an object of the derived class
-            //Dog myDog = new Dog();
+            player = new VideoPlayer();
+            player.Play();
+            player.Pause();
+            player.Stop();
 
-            //// Access the base class method
-            //myDog.Eat();
-            
-            
-            //// Access the derived class method
-            //myDog.Bark();
+
         }
     }
 
 
+    //public interface IVehicle
+    //{
+    //    void Drive();
+    //    void Stop();
+    //}
 
+    //public class Car : IVehicle
+    //{
+    //    public void Drive()
+    //    {
+    //        Console.WriteLine("Car is driving.");
+    //    }
 
+    //    public void Stop()
+    //    {
+    //        Console.WriteLine("Car has stopped.");
+    //    }
+    //}
+
+    //public class bike : IVehicle
+    //{
+    //    public void Drive()
+    //    {
+    //        Console.WriteLine("My Bike Drive");
+    //    }
+
+    //    public void Stop()
+    //    {
+    //        Console.WriteLine("My Bike Stop");
+    //    }
+    //} //public class Truck :bike , IVehicle
+    //{
+    //    public void Drive()
+    //    {
+    //        Console.WriteLine("My Bike Drive");
+    //    }
+
+    //    public void Stop()
+    //    {
+    //        Console.WriteLine("My Bike Stop");
+    //    }
+    //}
+
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        IVehicle myCar = new Car();
+    //        myCar.Drive();
+    //        myCar.Stop();
+
+    //        myCar = new bike();
+    //        myCar.Stop();
+    //        myCar.Drive();
+    //    }
+    //}
 }
 
 
