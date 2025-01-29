@@ -79,7 +79,7 @@
 
 
 
-              <h2>Login</h2>
+            <%--  <h2>Login</h2>
 
         <asp:Label ID="LabelEmail" runat="server" Text="Email:"></asp:Label>
         <asp:TextBox ID="TextBoxEmail" runat="server"></asp:TextBox><br />
@@ -96,9 +96,34 @@
         <!-- Link to Registration Page -->
         <asp:HyperLink ID="HyperLinkRegister" runat="server" NavigateUrl="Registration.aspx">
             Don't have an account? Register here
-        </asp:HyperLink>
+        </asp:HyperLink>--%>
 
+             <div class="container vh-100 d-flex justify-content-center align-items-center">
+     <div class="card" style="width: 30rem; border-radius: 15px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);">
+         <div class="card-body">
+             <h2 class="text-center mb-4">Login</h2>
 
+             <!-- Email input -->
+             <div class="form-outline mb-4">
+                 <asp:TextBox ID="txtEmail" runat="server" CssClass="form-control" TextMode="Email"></asp:TextBox>
+                 <label class="form-label" runat="server" for="txtEmail">Email address</label>
+             </div>
+
+             <!-- Password input -->
+             <div class="form-outline mb-4">
+                 <asp:TextBox ID="txtPassword" runat="server" CssClass="form-control" TextMode="Password"></asp:TextBox>
+                 <label class="form-label" runat="server" for="txtPassword">Password</label>
+             </div>
+
+            
+
+             <!-- Submit button -->
+             <asp:Button ID="btnSignIn" runat="server" Text="Sign in" CssClass="btn btn-primary btn-block mb-4" OnClick="btnSignIn_Click" />
+
+            
+         </div>
+     </div>
+ </div>
 
 
 

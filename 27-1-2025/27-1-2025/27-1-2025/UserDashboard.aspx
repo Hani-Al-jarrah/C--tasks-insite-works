@@ -11,30 +11,47 @@
     <form id="form1" runat="server">
         <div>
 
+            <asp:Button CssClass="btn btn-primary text-center" ID="EditProfile" runat="server" Text="Edit Profile" OnClick="EditProfile_Click" />
+            <br />
+
+
+
+
             <div class="contsiner">
-    <h1 class="text-center">Powers Of Students</h1>
-    <div class="row d-flex justify-content-center">
-        <div class="card" style="width: 18rem;">
-            <img src="book.jpg" class="card-img-top w-100" alt="..." />
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <asp:Button CssClass="btn btn-primary" ID="goBook" runat="server" Text="see all books"  OnClick="goBook_Click" />
+                <h1 class="text-center">Powers Of Students</h1>
+                <div class="row d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">books</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <asp:Button CssClass="btn btn-primary" ID="goBook" runat="server" Text="see all books" OnClick="goBook_Click" />
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Rooms</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <asp:Button CssClass="btn btn-primary" ID="goMeeting" runat="server" Text="see all Meeting rooms" OnClick="goMeeting_Click" />
+
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
             </div>
-        </div>
 
-        <div class="card" style="width: 18rem;">
-            <img src="meeting.jpg" class="card-img-top w-100" alt="..." />
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <asp:Button CssClass="btn btn-primary" ID="goMeeting" runat="server" Text="see all Meeting rooms" OnClick="goMeeting_Click" />
 
-            </div>
-        </div>
-    </div>
 
-</div>
 
 
         </div>

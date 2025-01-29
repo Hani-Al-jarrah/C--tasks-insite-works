@@ -11,9 +11,6 @@
         <div class="container mt-5">
             <h2 class="text-center">Library Books</h2>
 
-
-
-
             <table class="table">
                 <thead>
                     <tr>
@@ -23,16 +20,19 @@
                         <th scope="col">Level</th>
                     </tr>
                 </thead>
-                <tbody id="TableBody" runat="server">
-                </tbody>
+
+
+                <tbody id="TableBody" runat="server"></tbody> 
+                <%-- I will generate the table body and rows and data in the C# code by using String Builder and  // TableBody.InnerHtml --%>
             </table>
-
-
 
             <div class="container bg-primary d-flex flex-column align-items-center justify-content-center w-50 mt-5 p-5">
                 <label>Book ID:</label>
                 <asp:TextBox ID="bookId" runat="server" CssClass="form-control"></asp:TextBox>
                 <br />
+                <asp:Button CssClass="btn btn-light" ID="search" runat="server" Text="Search Book" OnClick="search_Click" />
+                <br /><br />
+
                 <label>Book Name:</label>
                 <asp:TextBox ID="bookName" runat="server" CssClass="form-control"></asp:TextBox>
                 <br />

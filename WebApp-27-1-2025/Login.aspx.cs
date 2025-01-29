@@ -97,34 +97,39 @@ namespace WebApp_27_1_2025
         ///////////////////////////////////////////////
 
 
-        protected void ButtonLogin_Click(object sender, EventArgs e)
+        //protected void ButtonLogin_Click(object sender, EventArgs e)
+        //{
+        //    string email = TextBoxEmail.Text;
+        //    string name = TextBoxName.Text;
+        //    string password = TextBoxPassword.Text;
+
+        //    string filePath = Server.MapPath("hani.txt");
+
+        //    // Check if the user exists in the file
+        //    if (File.Exists(filePath))
+        //    {
+        //        string[] lines = File.ReadAllLines(filePath);
+        //        foreach (string line in lines)
+        //        {
+        //            string[] userData = line.Split('/');
+        //            if (userData[0] == email && userData[1] == name && userData[2] == password)
+        //            {
+        //                LabelMessage.Text = "Login successful!";
+        //                LabelMessage.Visible = true
+        //                    ;
+        //                return;
+        //            }
+        //        }
+        //    }
+
+        //    // If user does not exist
+        //    LabelMessage.Text = "Invalid email, name, or password!";
+        //}
+
+        protected void btnSignIn_Click(object sender, EventArgs e)
         {
-            string email = TextBoxEmail.Text;
-            string name = TextBoxName.Text;
-            string password = TextBoxPassword.Text;
+            string email = txtEmail.Text;
 
-            string filePath = Server.MapPath("hani.txt");
-
-            // Check if the user exists in the file
-            if (File.Exists(filePath))
-            {
-                string[] lines = File.ReadAllLines(filePath);
-                foreach (string line in lines)
-                {
-                    string[] userData = line.Split('/');
-                    if (userData[0] == email && userData[1] == name && userData[2] == password)
-                    {
-                        LabelMessage.Text = "Login successful!";
-                        LabelMessage.Visible = true
-                            ;
-                        return;
-                    }
-                }
-            }
-
-            // If user does not exist
-            LabelMessage.Text = "Invalid email, name, or password!";
         }
-
     }
 }

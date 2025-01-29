@@ -27,5 +27,10 @@ namespace _27_1_2025
             Response.Redirect("AllBooks.aspx");
 
         }
+
+        protected void EditProfile_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Profile.aspx");
+        }
     }
 }
